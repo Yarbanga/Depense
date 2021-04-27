@@ -1,0 +1,92 @@
+#ouverture_caisse, #agent_form, #approvisionnement_form, #depense_form, #fermeture_caisse_form, #pole_form{
+    padding: 4%;
+    /* height: 500px; */
+    box-shadow: blue;
+}
+.form-control{
+    height: 60px;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+}
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: auto; */
+    text-align: center;
+}
+fieldset{
+    border: 2px solid #000;
+}
+.border-top {
+    border-top: 2px solid #e9ecef!important;
+    margin: auto;
+    width: 90%;
+}
+.error{
+    color: red;
+    font-style: italic;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 60px;
+}
+.table-bordered {
+    border: 2px solid #000;
+}
+.table thead th, .table th {
+    vertical-align: bottom;
+    /* border-bottom: 2px solid #000; */
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.table-striped td, .table-striped th {
+    /* border: 2px solid #000; */
+    text-align: center;
+}
+caption {
+    padding: 3px 6px;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: auto; */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    caption-side: top;
+    font-size: 1.5rem;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color: #fff;
+    background-color: #1F262D;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #27a9e3;
+    opacity: 1;
+}
+.page-wrapper{
+    background: #fff;
+}
+.footer{
+    background-color: antiquewhite;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+}
+/* .modal-agent{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.modal-title h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -10px;
+}
+.close{
+    color: red;
+}
